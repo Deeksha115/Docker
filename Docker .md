@@ -17,21 +17,20 @@ Your developers write code locally and share their work with their colleagues us
 
 **● The code is not running when**
 
----
 Developer -----------------> Testing Team **(but its not running my machine)**
 
 code
----
+
 
 
 **The code is running when**
 
----
+
 Developer--------> docker-------> packaging docker image -------->Testing Team
 
 code                help                    container               run code
 
----
+
 
 
 # Why is a container ?
