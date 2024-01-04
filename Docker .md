@@ -2,13 +2,10 @@
 
 **Docker**
 
-**—-----------------------------------------------------**
 
 **What is Docker ?**
 
-● Docker is a containerization plateform for developing , packaging,
-
-shipping, and running applications.
+● Docker is a containerization plateform for developing , packaging, shipping, and running applications.
 
 ● Its provide the ability to running an application in an isolated
 
@@ -18,11 +15,7 @@ environment called a container
 
 **Explaining with the example :**
 
-Your developers write code locally and share their work with their colleagues
-
-using Docker containers. They use Docker to push their applications into a
-
-test environment and run automated and manual tests.
+Your developers write code locally and share their work with their colleagues using Docker containers. They use Docker to push their applications into a test environment and run automated and manual tests.
 
 **● The code is not running when**
 
@@ -36,7 +29,8 @@ code
 
 Developer--------> docker-------> packaging docker image -------->Testing Team
 
-code help container run code
+code                help                    container               run code
+
 
 **Why is a container ?**
 
