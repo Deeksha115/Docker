@@ -9,11 +9,15 @@
 
 ● Its provide the ability to running an application in an isolated environment called a container
 
+
+
 # Why do we need a Docker ?
 
 **Explaining with the example :**
 
 Your developers write code locally and share their work with their colleagues using Docker containers. They use Docker to push their applications into a test environment and run automated and manual tests.
+
+
 
 **● The code is not running when**
 
@@ -45,6 +49,8 @@ code                help                    container               run code
 
 **Architecture**
 
+
+
 **(Container)**
 Application 1 
 
@@ -67,9 +73,6 @@ Application 1
 
 Dockerfile ------------> docker image ---------> container1
 
-                                                container2
-
-                                                container3
 
 
 
@@ -80,31 +83,37 @@ Dockerfile ------------> docker image ---------> container1
 sudo apt install docker.io
 ```
 
+
 ## ● Check version**
 ```bash
 docker –version
 ```
+
 
 ## ● Run a Container:**
 ```bash
 docker run IMAGE
 ```
 
+
 ## ● List Running Containers:**
 ```bash
 docker ps
 ```
+
 
 ## ● List All Containers (including stopped ones):**
 ```bash
 docker ps -a
 ```
 
+
 ## ● Stop a Running Container:**
 
 ```bash
 docker stop CONTAINER\_ID
 ```
+
 
 ## ● Remove a Stopped Container:**
 
@@ -115,30 +124,37 @@ docker rm CONTAINER\_ID
 
 <a name="br4"></a> 
 
+
 ## ● List Local Images:**
 ```bash
 docker images
 ```
+
 
 ## ● Pull an Image from Docker Hub:**
 ```bash
 docker pull IMAGE\_NAME[:TAG]
 ```
 
+
 ## ● Build an Image from a Dockerfile:**
 ```bash
 docker build -t IMAGE\_NAME[:TAG] PATH\_TO\_DOCKERFILE
 ```
+
 
 ## ● Remove an Image:**
 ```bash
 docker rmi IMAGE\_ID
 ```
 
+
 ## ● Inspect Container Details:**
 ```bash
 docker inspect CONTAINER\_I
 ```
+
+
 ## ● View Container Logs:**
 ```bash
 docker logs CONTAINER\_ID
