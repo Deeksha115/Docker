@@ -17,18 +17,21 @@ Your developers write code locally and share their work with their colleagues us
 
 **● The code is not running when**
 
-
+---
 Developer -----------------> Testing Team **(but its not running my machine)**
 
 code
-
+---
 
 
 **The code is running when**
 
+---
 Developer--------> docker-------> packaging docker image -------->Testing Team
 
 code                help                    container               run code
+
+---
 
 
 # Why is a container ?
@@ -74,28 +77,35 @@ container3
 <a name="br3"></a> 
 
 ## ● Installation of Docker**
-
+---
 sudo apt install docker.io
+---
 
 ## ● Check version**
-
+---
 docker –version
+---
 
 ## ● Run a Container:**
-
+---
 docker run IMAGE
+---
 
 ## ● List Running Containers:**
-
+---
 docker ps
+---
 
 ## ● List All Containers (including stopped ones):**
-
+---
 docker ps -a
+---
 
 ## ● Stop a Running Container:**
 
+---
 docker stop CONTAINER\_ID
+---
 
 ## ● Remove a Stopped Container:**
 
@@ -106,25 +116,29 @@ docker rm CONTAINER\_ID
 <a name="br4"></a> 
 
 ## ● List Local Images:**
-
+---
 docker images
+---
 
 ## ● Pull an Image from Docker Hub:**
-
+---
 docker pull IMAGE\_NAME[:TAG]
+---
 
 ## ● Build an Image from a Dockerfile:**
-
+---
 docker build -t IMAGE\_NAME[:TAG] PATH\_TO\_DOCKERFILE
+---
 
 ## ● Remove an Image:**
-
+---
 docker rmi IMAGE\_ID
+---
 
 ## ● Inspect Container Details:**
-
+---
 docker inspect CONTAINER\_I
-
+---
 ## ● View Container Logs:**
 
 docker logs CONTAINER\_ID
