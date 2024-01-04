@@ -11,7 +11,7 @@
 
 environment called a container
 
-**Why do we need a Docker ?**
+# Why do we need a Docker ?
 
 **Explaining with the example :**
 
@@ -32,7 +32,7 @@ Developer--------> docker-------> packaging docker image -------->Testing Team
 code                help                    container               run code
 
 
-**Why is a container ?**
+# Why is a container ?
 
 ● A way of packaging an application dependencies and configuration.
 
